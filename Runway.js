@@ -16,7 +16,7 @@ class Runway {
         Runway.planes.push(plane)
     }
 
-    remove(plane) {
+    remove(plane) { 
         const index = Runway.planes.indexOf(plane);
         if (index !== -1) {
             Runway.planes.splice(index, 1);
